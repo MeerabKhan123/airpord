@@ -23,5 +23,3 @@ It demonstrates my understanding of **HTML, CSS, and JavaScript**, as well as my
 - **Responsive Design** – works on different devices  
 - **Git & GitHub** – version control and project management  
 ## live demo(https://airpord1.netlify.app/)
-
-## Project Structure
