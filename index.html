@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirPods Pro - Premium Wireless</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="logo">AUDIO PRO</div>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#specs">Specs</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#buy">Buy</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-tag">New Release</div>
+            <h1 class="hero-title">AirPods Pro</h1>
+            <p class="hero-subtitle">Pure sound. Pure magic.</p>
+            <div class="hero-price">$249</div>
+            <div class="cta-buttons">
+                <button class="btn btn-primary" id="hero-buy-btn">Buy Now</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-showcase">
+        <div class="product-image"></div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="feature-card">
+            <span class="feature-icon">🎵</span>
+            <h3 class="feature-title">Active Noise Cancellation</h3>
+            <p class="feature-description">Industry-leading noise cancellation technology that adapts to your environment for an immersive listening experience.</p>
+        </div>
+        <div class="feature-card">
+            <span class="feature-icon">🔋</span>
+            <h3 class="feature-title">30 Hours Battery</h3>
+            <p class="feature-description">All-day battery life with fast charging. Just 5 minutes of charging gives you 1 hour of listening time.</p>
+        </div>
+        <div class="feature-card">
+            <span class="feature-icon">💧</span>
+            <h3 class="feature-title">Water Resistant</h3>
+            <p class="feature-description">IPX4 water and sweat resistance makes them perfect for workouts and outdoor activities.</p>
+        </div>
+        <div class="feature-card">
+            <span class="feature-icon">🎤</span>
+            <h3 class="feature-title">Crystal Clear Calls</h3>
+            <p class="feature-description">Advanced microphone system ensures your voice is heard clearly, even in noisy environments.</p>
+        </div>
+        <div class="feature-card">
+            <span class="feature-icon">⚡</span>
+            <h3 class="feature-title">Instant Pairing</h3>
+            <p class="feature-description">Seamless connectivity with all your devices. One-tap pairing and automatic device switching.</p>
+        </div>
+        <div class="feature-card">
+            <span class="feature-icon">🎧</span>
+            <h3 class="feature-title">Spatial Audio</h3>
+            <p class="feature-description">Immersive 3D audio experience with dynamic head tracking for theater-like sound.</p>
+        </div>
+    </section>
+
+    <section class="specs" id="specs">
+        <h2 class="specs-title">Technical Specifications</h2>
+        <div class="specs-grid">
+            <div class="spec-item">
+                <div class="spec-value">30hrs</div>
+                <div class="spec-label">Total Battery Life</div>
+            </div>
+            <div class="spec-item">
+                <div class="spec-value">5min</div>
+                <div class="spec-label">Fast Charge Time</div>
+            </div>
+            <div class="spec-item">
+                <div class="spec-value">IPX4</div>
+                <div class="spec-label">Water Resistance</div>
+            </div>
+            <div class="spec-item">
+                <div class="spec-value">10m</div>
+                <div class="spec-label">Bluetooth Range</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="reviews">
+        <h2 class="testimonials-title">What People Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Best earbuds I've ever owned! The sound quality is incredible and the noise cancellation is amazing."</p>
+                <div class="testimonial-author">— Sarah Johnson</div>
+            </div>
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Perfect for my daily commute. Battery lasts all day and they're super comfortable."</p>
+                <div class="testimonial-author">— Michael Chen</div>
+            </div>
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"The spatial audio feature is mind-blowing! Feels like I'm in a movie theater."</p>
+                <div class="testimonial-author">— Emma Davis</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="buy">
+        <h2 class="cta-title">Ready to Experience Premium Sound?</h2>
+        <p class="cta-text">Get your AirPods Pro today with free shipping and 30-day returns.</p>
+        <button class="btn btn-primary" id="cta-order-btn">Order Now - $249</button>
+    </section>
+    
+    <div class="order-modal" id="order-modal">
+        <div class="modal-content">
+            <h3 class="modal-title">✅ Order Initialized!</h3>
+            <p class="modal-text">You're one step closer to pure audio magic. Proceed to checkout to secure your AirPods Pro and choose your delivery options.</p>
+            <button class="btn btn-primary" id="modal-checkout-btn">Proceed to Checkout</button>
+            <button class="modal-close-btn" id="modal-close-btn">Continue Browsing</button>
+        </div>
+    </div>
+
+    <div class="loading-screen" id="loading-screen">
+        <div class="loader"></div>
+        <div class="loading-text">Processing Checkout...</div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
